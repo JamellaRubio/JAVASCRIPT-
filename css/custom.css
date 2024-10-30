@@ -1,0 +1,26 @@
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fdfefe, #42d7ed);
+    color: #1a1a1a; 
+    margin: 0;
+    padding: 0;
+}
+ 
+button {
+    background: linear-gradient(135deg, #93b2be, #198cbd); 
+    color: #ffffff; 
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #1ea9ff, #008ad5); 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4); 
+}
